@@ -1,0 +1,87 @@
+@charset "utf-8";
+#sidebar {
+	
+	background-color: #2FA4E5;
+	height: 140%;
+	
+}
+
+/* CSS Document */
+
+
+@media screen and (max-width:769px){
+	
+	#farmlogo{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+		
+	}
+	#logobox{
+		
+		display: none;
+		
+	}
+	#adImage{
+		
+		height: 95%;
+		background-color: #4376FF;
+	}
+	#pig{
+		
+		float:left;	
+		
+	}
+	arcticle{
+		
+	padding-left:20px;
+	margin:auto;
+		
+	}
+}
+@media screen and (min-width:770px){
+	
+	#farmlogo{
+    width: 30%;
+    height: 30%;
+    font-size: 14px;
+	position:sticky;
+	top:0;
+		
+	}
+	#logobox{
+		
+	display:block;
+	margin:auto;
+		
+	}
+	#sidebar{
+		
+		width:110%;
+		
+	}
+}
+
+#pig{
+    position: sticky;	
+	top:20px;
+	
+	
+}
+h1{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+#authorInfo{
+    background-color: #000000;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+	
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: black;
+    color: #000000;
+	padding-left: 20;
+}
